@@ -1,9 +1,9 @@
 import type { GatsbyConfig, PluginRef } from "gatsby"
 import "dotenv/config"
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
-
 const config: GatsbyConfig = {
+  // Github repository name
+  pathPrefix: "/my-personal-website",
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
@@ -125,14 +125,6 @@ const config: GatsbyConfig = {
             title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
           },
         ],
-      },
-    },
-    shouldAnalyseBundle && {
-      resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
-      options: {
-        analyzerMode: `static`,
-        reportFilename: `_bundle.html`,
-        openAnalyzer: false,
       },
     },
   ].filter(Boolean) as Array<PluginRef>,
