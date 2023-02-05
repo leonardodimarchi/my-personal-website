@@ -12,12 +12,6 @@
     @include margin-auto();
   }
 
-  .comments {
-    max-width: $layout-post-width;
-    @include padding(0, 0.5);
-    @include margin-auto();
-  }
-
   .buttons {
     align-items: center;
     display: flex;

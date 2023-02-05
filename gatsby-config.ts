@@ -14,7 +14,6 @@ export default {
     copyright: config.copyright,
     postsLimit: config.postsLimit,
     projectsLimit: config.projectsLimit,
-    disqusShortname: config.disqusShortname,
   },
   plugins: [
     {
@@ -149,7 +148,7 @@ export default {
         short_name: config.title,
         theme_color: "hsl(31, 92%, 62%)",
         background_color: "hsl(0, 0%, 100%)",
-        icon: "content/photo.jpg",
+        icon: "content/photo.png",
         display: "standalone",
         start_url: "/",
       },

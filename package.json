@@ -1,31 +1,31 @@
 {
-  "name": "gatsby-starter-lumen",
-  "version": "1.4.267",
-  "description": "A constantly evolving and thoughtful architecture for creating static blogs with Gatsby",
+  "name": "@leonardodimarchi/my-personal-website",
+  "version": "1.0.0",
+  "description": "This is my personal website, where i share my experiences and write some blog posts that can help other people.",
   "keywords": [
-    "gatsby",
-    "graphql",
-    "react",
+    "leonardo dimarchi",
+    "articles",
     "blog"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen.git"
+    "url": "https://github.com/leonardodimarchi/my-personal-website"
   },
   "license": "MIT",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Leonardo Dimarchi <leonardodimarchi@outlook.com>",
+  "starter-name": "gatsby-starter-lumen",
   "scripts": {
     "start": "npm run clean && gatsby develop",
     "build": "npm run clean && gatsby build",
     "clean": "gatsby clean",
-    "serve": "gatsby serve"
+    "preview": "npm run build && gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@alxshelepenok/diesel": "^1.0.678",
     "@alxshelepenok/diesel-extensions": "^1.0.325",
     "abab": "^2.0.6",
     "classnames": "^2.3.2",
-    "disqus-react": "^1.1.5",
     "gatsby": "^4.25.4",
     "gatsby-link": "^4.25.0",
     "gatsby-plugin-catch-links": "^4.25.0",

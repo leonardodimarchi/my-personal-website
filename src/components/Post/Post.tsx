@@ -5,7 +5,6 @@ import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 import type { Node } from "@/types";
 
 import { Author } from "./Author";
-import { Comments } from "./Comments";
 import { Content } from "./Content";
 import { Meta } from "./Meta";
 import { Tags } from "./Tags";
@@ -18,7 +17,7 @@ interface Props {
 
 const Post: React.FC<Props> = ({ post }: Props) => {
   const { html } = post;
-  const { tagSlugs, slug } = post.fields;
+  const { tagSlugs } = post.fields;
   const { tags, title, date } = post.frontmatter;
 
   return (
@@ -36,10 +35,6 @@ const Post: React.FC<Props> = ({ post }: Props) => {
         <Meta date={date} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
         <Author />
-      </div>
-
-      <div className={styles.comments}>
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
       </div>
     </div>
   );
