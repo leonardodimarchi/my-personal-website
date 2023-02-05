@@ -4,6 +4,7 @@ interface MetadataQueryResult {
   site: {
     siteMetadata: {
       postsLimit?: number;
+      projectsLimit?: number;
     };
   };
 }
@@ -14,6 +15,7 @@ const metadataQuery = async (graphql: CreatePagesArgs["graphql"]) => {
       site {
         siteMetadata {
           postsLimit
+          projectsLimit
         }
       }
     }

@@ -13,6 +13,7 @@ export default {
     subtitle: config.subtitle,
     copyright: config.copyright,
     postsLimit: config.postsLimit,
+    projectsLimit: config.projectsLimit,
     disqusShortname: config.disqusShortname,
   },
   plugins: [
@@ -161,10 +162,6 @@ export default {
             {
               urlPattern: /(\.js$|\.css$|[^:]static\/)/,
               handler: "CacheFirst",
-            },
-            {
-              urlPattern: /^https?:.*\/page-data\/.*\.json/,
-              handler: "StaleWhileRevalidate",
             },
             {
               urlPattern:

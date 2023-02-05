@@ -54,6 +54,12 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
         component: constants.templates.postTemplate,
         context: { slug: node.fields.slug },
       });
+    } else if (node?.frontmatter?.template === "project" && node?.fields?.slug) {
+      createPage({
+        path: node?.frontmatter?.slug || node.fields.slug,
+        component: constants.templates.projectTemplate,
+        context: { slug: node.fields.slug },
+      });
     }
   });
 
@@ -143,6 +149,23 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       total,
       page,
       path,
+    });
+  }
+
+  const projectsLimit = metadata?.projectsLimit ?? 1;
+  
+  const projectsPath = constants.routes.projectsRoute;
+  const projectsTemplate = constants.templates.projectsTemplate;
+  const projects = await queries.projectsQuery(graphql);
+  const totalProjects = Math.ceil((projects?.edges?.length ?? 0) / projectsLimit);
+
+  for (let page = 0; page < totalProjects; page += 1) {
+    createWithPagination({
+      limit: projectsLimit,
+      template: projectsTemplate,
+      total: totalProjects,
+      page,
+      path: projectsPath,
     });
   }
 };
