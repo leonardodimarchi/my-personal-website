@@ -23,7 +23,7 @@ const Project: React.FC<Props> = ({ project }: Props) => {
   return (
     <div className={styles.project}>
       <div className={styles.buttons}>
-        <Button className={styles.buttonArticles} title="All projects" to="/projects" />
+        <Button className={styles.buttonArticles} title="All Projects" to="/projects" />
         <ThemeSwitcher />
       </div>
 

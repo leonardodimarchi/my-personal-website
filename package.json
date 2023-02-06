@@ -64,6 +64,7 @@
     "autoprefixer": "^10.4.13",
     "browserslist": "^4.21.5",
     "concurrently": "^7.6.0",
+    "gh-pages": "^5.0.0",
     "identity-obj-proxy": "3.0.0",
     "lost": "9.0.1",
     "postcss": "^8.4.21",
