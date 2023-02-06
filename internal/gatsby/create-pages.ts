@@ -27,25 +27,25 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
 
   createPage({
     path: constants.routes.postTagsListRoute,
-    component: constants.templates.postTagsTemplate,
+    component: constants.templates.posts.postTagsTemplate,
     context: {},
   });
 
   createPage({
     path: constants.routes.postCategoriesListRoute,
-    component: constants.templates.postCategoriesTemplate,
+    component: constants.templates.posts.postCategoriesTemplate,
     context: {},
   });
 
   createPage({
     path: constants.routes.projectTagsListRoute,
-    component: constants.templates.postTagsTemplate,
+    component: constants.templates.posts.postTagsTemplate,
     context: {},
   });
 
   createPage({
     path: constants.routes.projectCategoriesListRoute,
-    component: constants.templates.postCategoriesTemplate,
+    component: constants.templates.posts.postCategoriesTemplate,
     context: {},
   });
 
@@ -63,7 +63,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     } else if (node?.frontmatter?.template === "post" && node?.fields?.slug) {
       createPage({
         path: node?.frontmatter?.slug || node.fields.slug,
-        component: constants.templates.postTemplate,
+        component: constants.templates.posts.postTemplate,
         context: { slug: node.fields.slug },
       });
     } else if (node?.frontmatter?.template === "project" && node?.fields?.slug) {
@@ -118,7 +118,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       createWithPagination({
         limit: postsLimit,
         group: category.fieldValue,
-        template: constants.templates.postCategoryTemplate,
+        template: constants.templates.posts.postCategoryTemplate,
         total,
         page,
         path,
@@ -141,7 +141,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       createWithPagination({
         limit: postsLimit,
         group: tag.fieldValue,
-        template: constants.templates.postTagTemplate,
+        template: constants.templates.posts.postTagTemplate,
         total,
         page,
         path,
@@ -150,7 +150,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
   });
 
   const path = constants.routes.indexRoute;
-  const template = constants.templates.indexTemplate;
+  const template = constants.templates.posts.postsTemplate;
   const posts = await queries.postsQuery(graphql);
   const total = Math.ceil((posts?.edges?.length ?? 0) / postsLimit);
 
@@ -179,7 +179,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       createWithPagination({
         limit: projectsLimit,
         group: category.fieldValue,
-        template: constants.templates.postCategoryTemplate,
+        template: constants.templates.posts.postCategoryTemplate,
         total,
         page,
         path,
@@ -202,7 +202,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       createWithPagination({
         limit: projectsLimit,
         group: tag.fieldValue,
-        template: constants.templates.postTagTemplate,
+        template: constants.templates.posts.postTagTemplate,
         total,
         page,
         path,
