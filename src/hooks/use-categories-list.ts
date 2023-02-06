@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby";
 
-interface CategoriesQueryResult {
+interface PostCategoriesQueryResult {
   allMarkdownRemark: {
     group: Array<{
       fieldValue: string;
@@ -9,10 +9,10 @@ interface CategoriesQueryResult {
   };
 }
 
-const useCategoriesList = () => {
-  const { allMarkdownRemark } = useStaticQuery<CategoriesQueryResult>(
+const usePostCategoriesList = () => {
+  const { allMarkdownRemark } = useStaticQuery<PostCategoriesQueryResult>(
     graphql`
-      query CategoriesListQuery {
+      query PostCategoriesListQuery {
         allMarkdownRemark(
           filter: {
             frontmatter: { template: { eq: "post" }, draft: { ne: true } }
@@ -30,4 +30,4 @@ const useCategoriesList = () => {
   return allMarkdownRemark.group ?? [];
 };
 
-export default useCategoriesList;
+export default usePostCategoriesList;

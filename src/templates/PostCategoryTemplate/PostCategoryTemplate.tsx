@@ -18,9 +18,10 @@ interface Props {
   pageContext: PageContext;
 }
 
-const TagTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
+const PostCategoryTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
   const { group, pagination } = pageContext;
   const { prevPagePath, nextPagePath, hasPrevPage, hasNextPage } = pagination;
+
   const { edges } = data.allMarkdownRemark;
 
   return (
@@ -40,19 +41,13 @@ const TagTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
 };
 
 export const query = graphql`
-  query TagTemplate($group: String, $limit: Int!, $offset: Int!) {
-    site {
-      siteMetadata {
-        title
-        subtitle
-      }
-    }
+  query CategoryTemplate($group: String, $limit: Int!, $offset: Int!) {
     allMarkdownRemark(
       limit: $limit
       skip: $offset
       filter: {
         frontmatter: {
-          tags: { in: [$group] }
+          category: { eq: $group }
           template: { eq: "post" }
           draft: { ne: true }
         }
@@ -66,10 +61,10 @@ export const query = graphql`
             categorySlug
           }
           frontmatter {
+            description
+            category
             title
             date
-            category
-            description
             slug
           }
         }
@@ -92,4 +87,4 @@ export const Head: React.FC<Props> = ({ pageContext }) => {
   return <Meta title={pageTitle} description={subtitle} />;
 };
 
-export default TagTemplate;
+export default PostCategoryTemplate;

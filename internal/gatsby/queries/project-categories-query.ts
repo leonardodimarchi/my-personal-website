@@ -1,6 +1,6 @@
 import { CreatePagesArgs } from "gatsby";
 
-interface CategoriesQueryResult {
+interface ProjectCategoriesQueryResult {
   allMarkdownRemark: {
     group: Array<{
       fieldValue: string;
@@ -9,12 +9,12 @@ interface CategoriesQueryResult {
   };
 }
 
-const categoriesQuery = async (graphql: CreatePagesArgs["graphql"]) => {
-  const result = await graphql<CategoriesQueryResult>(`
+const projectCategoriesQuery = async (graphql: CreatePagesArgs["graphql"]) => {
+  const result = await graphql<ProjectCategoriesQueryResult>(`
     {
       allMarkdownRemark(
         filter: {
-          frontmatter: { template: { eq: "post" }, draft: { ne: true } }
+          frontmatter: { template: { eq: "project" }, draft: { ne: true } }
         }
         sort: { order: DESC, fields: [frontmatter___date] }
       ) {
@@ -29,4 +29,4 @@ const categoriesQuery = async (graphql: CreatePagesArgs["graphql"]) => {
   return result?.data?.allMarkdownRemark?.group ?? [];
 };
 
-export default categoriesQuery;
+export default projectCategoriesQuery;

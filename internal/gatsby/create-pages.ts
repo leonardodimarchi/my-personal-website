@@ -26,14 +26,26 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
   });
 
   createPage({
-    path: constants.routes.tagsListRoute,
-    component: constants.templates.tagsTemplate,
+    path: constants.routes.postTagsListRoute,
+    component: constants.templates.postTagsTemplate,
     context: {},
   });
 
   createPage({
-    path: constants.routes.categoriesListRoute,
-    component: constants.templates.categoriesTemplate,
+    path: constants.routes.postCategoriesListRoute,
+    component: constants.templates.postCategoriesTemplate,
+    context: {},
+  });
+
+  createPage({
+    path: constants.routes.projectTagsListRoute,
+    component: constants.templates.postTagsTemplate,
+    context: {},
+  });
+
+  createPage({
+    path: constants.routes.projectCategoriesListRoute,
+    component: constants.templates.postCategoriesTemplate,
     context: {},
   });
 
@@ -90,14 +102,14 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     });
   };
 
-  const categories = await queries.categoriesQuery(graphql);
+  const postCategories = await queries.postCategoriesQuery(graphql);
   const metadata = await queries.metadataQuery(graphql);
   const postsLimit = metadata?.postsLimit ?? 1;
 
-  categories.forEach((category) => {
+  postCategories.forEach((category) => {
     const total = Math.ceil(category.totalCount / postsLimit);
     const path = utils.concat(
-      constants.routes.categoryRoute,
+      constants.routes.postCategoryRoute,
       "/",
       utils.toKebabCase(category.fieldValue),
     );
@@ -106,7 +118,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       createWithPagination({
         limit: postsLimit,
         group: category.fieldValue,
-        template: constants.templates.categoryTemplate,
+        template: constants.templates.postCategoryTemplate,
         total,
         page,
         path,
@@ -114,11 +126,11 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     }
   });
 
-  const tags = await queries.tagsQuery(graphql);
+  const postTags = await queries.postTagsQuery(graphql);
 
-  tags.forEach((tag) => {
+  postTags.forEach((tag) => {
     const path = utils.concat(
-      constants.routes.tagRoute,
+      constants.routes.postTagRoute,
       "/",
       utils.toKebabCase(tag.fieldValue),
     );
@@ -129,7 +141,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       createWithPagination({
         limit: postsLimit,
         group: tag.fieldValue,
-        template: constants.templates.tagTemplate,
+        template: constants.templates.postTagTemplate,
         total,
         page,
         path,
@@ -152,7 +164,52 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     });
   }
 
+  const projectCategories = await queries.projectCategoriesQuery(graphql);
   const projectsLimit = metadata?.projectsLimit ?? 1;
+
+  projectCategories.forEach((category) => {
+    const total = Math.ceil(category.totalCount / projectsLimit);
+    const path = utils.concat(
+      constants.routes.projectCategoryRoute,
+      "/",
+      utils.toKebabCase(category.fieldValue),
+    );
+
+    for (let page = 0; page < total; page += 1) {
+      createWithPagination({
+        limit: projectsLimit,
+        group: category.fieldValue,
+        template: constants.templates.postCategoryTemplate,
+        total,
+        page,
+        path,
+      });
+    }
+  });
+
+  const projectTags = await queries.projectTagsQuery(graphql);
+
+  projectTags.forEach((tag) => {
+    const path = utils.concat(
+      constants.routes.projectTagRoute,
+      "/",
+      utils.toKebabCase(tag.fieldValue),
+    );
+
+    const total = Math.ceil(tag.totalCount / projectsLimit);
+
+    for (let page = 0; page < total; page += 1) {
+      createWithPagination({
+        limit: projectsLimit,
+        group: tag.fieldValue,
+        template: constants.templates.postTagTemplate,
+        total,
+        page,
+        path,
+      });
+    }
+  });
+
   
   const projectsPath = constants.routes.projectsRoute;
   const projectsTemplate = constants.templates.projectsTemplate;

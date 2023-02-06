@@ -1,9 +1,13 @@
 const routes = Object.freeze({
-  categoriesListRoute: "/categories",
-  categoryRoute: "/category",
-  tagsListRoute: "/tags",
+  postCategoriesListRoute: "/post-categories",
+  postCategoryRoute: "/post-category",
+  projectCategoriesListRoute: "/project-categories",
+  projectCategoryRoute: "/project-category",
+  postTagsListRoute: "/post-tags",
+  projectTagsListRoute: "/project-tags",
+  postTagRoute: "/post-tag",
+  projectTagRoute: "/project-tag",
   notFoundRoute: "/404",
-  tagRoute: "/tag",
   indexRoute: "/",
   projectsRoute: "/projects",
 });

@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby";
 
-interface TagsQueryResult {
+interface PostTagsQueryResult {
   allMarkdownRemark: {
     group: Array<{
       fieldValue: string;
@@ -9,10 +9,10 @@ interface TagsQueryResult {
   };
 }
 
-const useTagsList = () => {
-  const { allMarkdownRemark } = useStaticQuery<TagsQueryResult>(
+const usePostTagsList = () => {
+  const { allMarkdownRemark } = useStaticQuery<PostTagsQueryResult>(
     graphql`
-      query TagsListQuery {
+      query PostTagsListQuery {
         allMarkdownRemark(
           filter: {
             frontmatter: { template: { eq: "post" }, draft: { ne: true } }
@@ -30,4 +30,4 @@ const useTagsList = () => {
   return allMarkdownRemark.group || [];
 };
 
-export default useTagsList;
+export default usePostTagsList;

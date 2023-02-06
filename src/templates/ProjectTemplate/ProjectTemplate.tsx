@@ -4,9 +4,9 @@ import { graphql } from "gatsby";
 
 import { Layout } from "@/components/Layout";
 import { Meta } from "@/components/Meta";
-import { Post } from "@/components/Post";
 import { useSiteMetadata } from "@/hooks";
 import { Node } from "@/types";
+import Project from "@/components/Project/Project";
 
 interface Props {
   data: {
@@ -16,7 +16,7 @@ interface Props {
 
 const ProjectTemplate: React.FC<Props> = ({ data: { markdownRemark } }: Props) => (
   <Layout>
-    <Post post={markdownRemark} />
+    <Project project={markdownRemark} />
   </Layout>
 );
 
@@ -48,12 +48,12 @@ export const Head: React.FC<Props> = ({ data }) => {
   const {
     frontmatter: {
       title: projectTitle,
-      description: postDescription = "",
+      description: projectDescription = "",
       socialImage,
     },
   } = data.markdownRemark;
 
-  const description = postDescription || subtitle;
+  const description = projectDescription || subtitle;
   const image = socialImage?.publicURL && url.concat(socialImage?.publicURL);
 
   return (

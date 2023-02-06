@@ -7,17 +7,17 @@ const templates = Object.freeze({
   notFoundTemplate: path.resolve(
     "./src/templates/NotFoundTemplate/NotFoundTemplate.tsx",
   ),
-  categoryTemplate: path.resolve(
-    "./src/templates/CategoryTemplate/CategoryTemplate.tsx",
+  postCategoryTemplate: path.resolve(
+    "./src/templates/PostCategoryTemplate/PostCategoryTemplate.tsx",
   ),
-  categoriesTemplate: path.resolve(
-    "./src/templates/CategoriesTemplate/CategoriesTemplate.tsx",
+  postCategoriesTemplate: path.resolve(
+    "./src/templates/PostCategoriesTemplate/PostCategoriesTemplate.tsx",
   ),
   projectsTemplate: path.resolve(
     "./src/templates/ProjectsTemplate/ProjectsTemplate.tsx",
   ),
-  tagTemplate: path.resolve("./src/templates/TagTemplate/TagTemplate.tsx"),
-  tagsTemplate: path.resolve("./src/templates/TagsTemplate/TagsTemplate.tsx"),
+  postTagTemplate: path.resolve("./src/templates/PostTagTemplate/PostTagTemplate.tsx"),
+  postTagsTemplate: path.resolve("./src/templates/PostTagsTemplate/PostTagsTemplate.tsx"),
   pageTemplate: path.resolve("./src/templates/PageTemplate/PageTemplate.tsx"),
   postTemplate: path.resolve("./src/templates/PostTemplate/PostTemplate.tsx"),
   projectTemplate: path.resolve("./src/templates/ProjectTemplate/ProjectTemplate.tsx"),

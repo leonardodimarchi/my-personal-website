@@ -1,6 +1,6 @@
 import { CreatePagesArgs } from "gatsby";
 
-interface TagsQueryResult {
+interface ProjectTagsQueryResult {
   allMarkdownRemark: {
     group: Array<{
       fieldValue: string;
@@ -9,12 +9,12 @@ interface TagsQueryResult {
   };
 }
 
-const tagsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
-  const result = await graphql<TagsQueryResult>(`
+const projectTagsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
+  const result = await graphql<ProjectTagsQueryResult>(`
     {
       allMarkdownRemark(
         filter: {
-          frontmatter: { template: { eq: "post" }, draft: { ne: true } }
+          frontmatter: { template: { eq: "project" }, draft: { ne: true } }
         }
       ) {
         group(field: frontmatter___tags) {
@@ -28,4 +28,4 @@ const tagsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
   return result?.data?.allMarkdownRemark?.group || [];
 };
 
-export default tagsQuery;
+export default projectTagsQuery;
