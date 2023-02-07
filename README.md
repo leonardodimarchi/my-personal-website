@@ -1,8 +1,8 @@
-# Welcome, this is my personal website
+# Welcome to my personal website =)
 
-### What will you find here?
+## What you will find in there?
 
-- Some basic informations about me
-- My experiences
-- My blog
-- My portfolio
+- Blog posts
+- Projects
+- Contacts
+- About me

@@ -1,0 +1,37 @@
+{
+  "title": "Leonardo Dimarchi Blog",
+  "url": "https://leonardodimarchi.github.io/my-personal-website",
+  "subtitle": "This is my personal website, where i share my experiences and write some blog posts that can help other people.",
+  "copyright": "© All rights reserved.",
+  "postsLimit": 5,
+  "projectsLimit": 5,
+  "pathPrefix": "/my-personal-website",
+  "menu": [
+    {
+      "label": "Articles",
+      "path": "/"
+    },
+    {
+      "label": "Projects",
+      "path": "/projects"
+    },
+    {
+      "label": "Experiences",
+      "path": "/pages/experiences"
+    },
+    {
+      "label": "About me",
+      "path": "/pages/about"
+    }
+  ],
+  "author": {
+    "name": "Leonardo Dimarchi",
+    "photo": "/photo.png",
+    "bio": "I'm a dedicated developer, always interested in learning and using new technologies.",
+    "contacts": {
+      "email": "leonardodimarchi@outlook.com",
+      "github": "leonardodimarchi",
+      "linkedin": "leonardodimarchi"
+    }
+  }
+}
