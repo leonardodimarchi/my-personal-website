@@ -19,7 +19,7 @@
     "build": "npm run clean && gatsby build",
     "clean": "gatsby clean",
     "preview": "npm run build && gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@alxshelepenok/diesel": "^1.0.678",
