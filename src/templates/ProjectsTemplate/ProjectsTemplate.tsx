@@ -2,7 +2,7 @@ import React from "react";
 
 import { graphql } from "gatsby";
 
-import { Feed } from "@/components/Feed";
+import { ProjectFeed } from "@/components/ProjectFeed";
 import { Layout } from "@/components/Layout";
 import { Meta } from "@/components/Meta";
 import { Page } from "@/components/Page";
@@ -28,7 +28,7 @@ const ProjectsTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
     <Layout>
       <Sidebar isIndex />
       <Page>
-        <Feed edges={edges} />
+        <ProjectFeed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
           nextPagePath={nextPagePath}
@@ -60,6 +60,9 @@ export const query = graphql`
             title
             date
             slug
+            socialImage {
+              publicURL
+            }
           }
         }
       }

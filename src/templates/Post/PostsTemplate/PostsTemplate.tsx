@@ -2,7 +2,7 @@ import React from "react";
 
 import { graphql } from "gatsby";
 
-import { Feed } from "@/components/Feed";
+import { PostFeed } from "@/components/PostFeed";
 import { Layout } from "@/components/Layout";
 import { Meta } from "@/components/Meta";
 import { Page } from "@/components/Page";
@@ -28,7 +28,7 @@ const PostsTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
     <Layout>
       <Sidebar isIndex />
       <Page>
-        <Feed edges={edges} />
+        <PostFeed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
           nextPagePath={nextPagePath}

@@ -4,13 +4,13 @@ import { Link } from "gatsby";
 
 import { Edge } from "@/types";
 
-import * as styles from "./Feed.module.scss";
+import * as styles from "./PostFeed.module.scss";
 
 type Props = {
   edges: Array<Edge>;
 };
 
-const Feed: React.FC<Props> = ({ edges }: Props) => (
+const PostFeed: React.FC<Props> = ({ edges }: Props) => (
   <div className={styles.feed}>
     {edges.map((edge) => (
       <div className={styles.item} key={edge.node.fields.slug}>
@@ -56,4 +56,4 @@ const Feed: React.FC<Props> = ({ edges }: Props) => (
   </div>
 );
 
-export default Feed;
+export default PostFeed;
