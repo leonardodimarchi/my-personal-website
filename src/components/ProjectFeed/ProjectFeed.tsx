@@ -14,7 +14,7 @@ type Props = {
 const ProjectFeed: React.FC<Props> = ({ edges }: Props) => {
   return (
     <>
-      <p>This is the list of some of the projects that i worked on in these years</p>
+      <p>This is the list of some of the projects that i worked on in these years.</p>
 
       <div className={styles.projectFeed}>
         {edges.map((edge) => {

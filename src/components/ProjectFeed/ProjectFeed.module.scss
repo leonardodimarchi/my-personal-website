@@ -6,6 +6,10 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 1rem;
 
+  @media(max-width: 975px) {
+    grid-template-columns: 1fr;
+  }
+
   .item {
     border-radius: 18px;
     padding: 1.3rem 2rem;
