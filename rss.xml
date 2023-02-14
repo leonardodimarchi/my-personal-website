@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 08 Feb 2023 02:54:22 GMT</lastBuildDate><item><title><![CDATA[Mock Factories instead of Mock objects]]></title><description><![CDATA[In this article, i'll share my experiences using Mock Factories instead of Mock Objects.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</guid><pubDate>Tue, 07 Feb 2023 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;These last months i’ve being practicing Clean architecture and TDD at some of my personal projects (&lt;a href=&quot;https://github.com/leonardodimarchi/massage-therapy-api&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;like this one&lt;/a&gt;), and with that i’ve learned some new concepts and patterns.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Feb 2023 00:44:48 GMT</lastBuildDate><item><title><![CDATA[Mock Factories instead of Mock objects]]></title><description><![CDATA[In this article, i'll share my experiences using Mock Factories instead of Mock Objects.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</guid><pubDate>Tue, 07 Feb 2023 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;These last months i’ve being practicing Clean architecture and TDD at some of my personal projects (&lt;a href=&quot;https://github.com/leonardodimarchi/massage-therapy-api&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;like this one&lt;/a&gt;), and with that i’ve learned some new concepts and patterns.&lt;/p&gt;
 &lt;p&gt;Over the course of the projects, i was using mock objects at my unit tests.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;ts&quot;&gt;&lt;pre class=&quot;language-ts&quot;&gt;&lt;code class=&quot;language-ts&quot;&gt;&lt;span class=&quot;token function&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;should create the user&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token comment&quot;&gt;// Arrange&lt;/span&gt;
@@ -138,7 +138,7 @@
   
   &lt;span class=&quot;token comment&quot;&gt;// Assert&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;With this, i got a scalable and reusable solution when new fields are added =)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Motivação+]]></title><description><![CDATA[An app where young people can do "trips" to discover more about themselves.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</guid><pubDate>Sat, 06 Feb 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made for a brazilian NGO called &lt;a href=&quot;https://institutoayrtonsenna.org.br/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Instituto Ayrton Senna&lt;/a&gt;. At the app, we have a lot of trips that the users can participate solo or in group, to answer different types of quizes that will make them think about life, friends, family and career.&lt;/p&gt;
+&lt;p&gt;With this, i got a scalable and reusable solution when new fields are added =)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Motivação+]]></title><description><![CDATA[An app where young people can do "trips" to discover more about themselves.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</guid><pubDate>Tue, 06 Jul 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made for a brazilian NGO called &lt;a href=&quot;https://institutoayrtonsenna.org.br/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Instituto Ayrton Senna&lt;/a&gt;. At the app, we have a lot of trips that the users can participate solo or in group, to answer different types of quizes that will make them think about life, friends, family and career.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.liga.motivacao.ias&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Play Store&lt;/a&gt;
 &lt;a href=&quot;https://apps.apple.com/br/app/motiva%C3%A7%C3%A3o/id1573251516&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;App Store&lt;/a&gt;
 &lt;span
@@ -175,6 +175,44 @@
             src=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp&quot;
             alt=&quot;App Banner&quot;
             title=&quot;App Banner&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[N Cursos]]></title><description><![CDATA[An educational platform with certified courses.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/ncursos</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/ncursos</guid><pubDate>Tue, 06 Apr 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.ncursosedu.com.br/main/inicio&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;NCursos&lt;/a&gt; is an educational platform, where you can watch live or recorded classes on different areas of knowledge, remotely or in person, with certificates.&lt;/p&gt;
+&lt;p&gt;You can access it from your computer or smartphone to purchase courses, chat with the teacher, take classes and much more.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ncursosedu.com.br/main/inicio&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Website&lt;/a&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoUAA4APtFUo0uoJKMhsAgBABoJZwDDNCHpJhPtB4lF7J16wAD+8SMTYlrIygmFiAjxdGHK6gFsnqqJ2Ovo1jQDZNjjetiELGRWtAkU0BLo8BQO5eo4AA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/81eb318b2cc90f5f62d17366d4662cd9/8ac56/banner.webp 240w,
+/my-personal-website/static/81eb318b2cc90f5f62d17366d4662cd9/d3be9/banner.webp 480w,
+/my-personal-website/static/81eb318b2cc90f5f62d17366d4662cd9/e46b2/banner.webp 960w,
+/my-personal-website/static/81eb318b2cc90f5f62d17366d4662cd9/260c2/banner.webp 1080w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/81eb318b2cc90f5f62d17366d4662cd9/8ac56/banner.webp 240w,
+/my-personal-website/static/81eb318b2cc90f5f62d17366d4662cd9/d3be9/banner.webp 480w,
+/my-personal-website/static/81eb318b2cc90f5f62d17366d4662cd9/e46b2/banner.webp 960w,
+/my-personal-website/static/81eb318b2cc90f5f62d17366d4662cd9/260c2/banner.webp 1080w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/webp&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/81eb318b2cc90f5f62d17366d4662cd9/e46b2/banner.webp&quot;
+            alt=&quot;Courses Listing&quot;
+            title=&quot;Courses Listing&quot;
             loading=&quot;lazy&quot;
             decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
