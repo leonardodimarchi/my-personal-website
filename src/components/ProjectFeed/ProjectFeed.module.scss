@@ -11,6 +11,8 @@
   }
 
   .item {
+    display: flex;
+    flex-direction: column;
     border-radius: 18px;
     padding: 1.3rem 2rem;
 
@@ -19,14 +21,9 @@
     > img {
       max-height: 10rem;
       width: 100%;
+      margin-top: auto;
       object-fit: cover;
       object-position: top;
-    }
-
-    @include margin-bottom(1.25);
-
-    &:last-child {
-      @include margin-bottom(0.5);
     }
 
     .title {
