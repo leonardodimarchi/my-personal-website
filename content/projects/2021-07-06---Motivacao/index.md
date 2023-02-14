@@ -1,6 +1,6 @@
 ---
 title: Motivação+
-date: "2021-02-06T03:00:00.000Z"
+date: "2021-07-06T03:00:00.000Z"
 template: "project"
 draft: false
 slug: "/projects/motivacao-mais"
