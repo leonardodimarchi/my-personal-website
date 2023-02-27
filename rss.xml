@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 24 Feb 2023 00:13:54 GMT</lastBuildDate><item><title><![CDATA[Mock Factories instead of Mock objects]]></title><description><![CDATA[In this article, i'll share my experiences using Mock Factories instead of Mock Objects.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</guid><pubDate>Tue, 07 Feb 2023 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;These last months i’ve being practicing Clean architecture and TDD at some of my personal projects (&lt;a href=&quot;https://github.com/leonardodimarchi/massage-therapy-api&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;like this one&lt;/a&gt;), and with that i’ve learned some new concepts and patterns.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 27 Feb 2023 23:23:49 GMT</lastBuildDate><item><title><![CDATA[Mock Factories instead of Mock objects]]></title><description><![CDATA[In this article, i'll share my experiences using Mock Factories instead of Mock Objects.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</guid><pubDate>Tue, 07 Feb 2023 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;These last months i’ve being practicing Clean architecture and TDD at some of my personal projects (&lt;a href=&quot;https://github.com/leonardodimarchi/massage-therapy-api&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;like this one&lt;/a&gt;), and with that i’ve learned some new concepts and patterns.&lt;/p&gt;
 &lt;p&gt;Over the course of the projects, i was using mock objects at my unit tests.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;ts&quot;&gt;&lt;pre class=&quot;language-ts&quot;&gt;&lt;code class=&quot;language-ts&quot;&gt;&lt;span class=&quot;token function&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;should create the user&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token comment&quot;&gt;// Arrange&lt;/span&gt;
@@ -176,6 +176,180 @@
             src=&quot;/my-personal-website/static/644b8a133e1fdd9db5fe10f0c3577b82/e46b2/banner.webp&quot;
             alt=&quot;Staff Requisition Dashboard View&quot;
             title=&quot;Staff Requisition Dashboard View&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Residencial Chácara Ondina]]></title><description><![CDATA[An app to bring more convenience to the residents of the condominium.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/chacara-ondina</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/chacara-ondina</guid><pubDate>Fri, 17 Dec 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made for a brazilian residential condominium called &lt;a href=&quot;http://www.chacaraondina.com.br/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Chácara Ondina&lt;/a&gt;. At the app, we can see the all the notifications and events from the condiminium, along with the possibility to create help or feedback tickets and schedule visitors.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;Play Store&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;App Store&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.liga.chacaraondina&amp;#x26;hl=pt&amp;#x26;gl=US&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://apps.apple.com/br/app/residencial-ch%C3%A1cara-ondina/id1517930686&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 314px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/my-personal-website/static/7eaaa454186c6265cf169346c621f704/715b3/banner.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 216.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRgIBAABXRUJQVlA4IPYAAADwBQCdASoUACsAPtFYpkyoJSOiJW5hABoJaACxDSAEeGsPfsuA8HXR7+aE1u8BRjcFG+yaE8mhcADhyyW9QYZQh6F4kGCUcx2ntz/+LQ/t5/wiXXnDXFzZEUG39kfh+UhXxH+vwesyJQjR9nUKW/k0dsoN4B7XpX56G/vzwT7K7BUcw7preGk58dpnb6UhE+agDFYYgTaDfPk4t3Vh5uMPtQvatWgyMjXB6sQdbDYilZnf8P3h3O6j0RidbWBtDdEwxnq4bfth07YGnsmLg+N5X1pveQ5dH6yyzMdiOgDWWEb4oNHP6Ov97j5dL3vzsHokda+AAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/7eaaa454186c6265cf169346c621f704/8ac56/banner.webp 240w,
+/my-personal-website/static/7eaaa454186c6265cf169346c621f704/715b3/banner.webp 314w&quot;
+              sizes=&quot;(max-width: 314px) 100vw, 314px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/7eaaa454186c6265cf169346c621f704/8ac56/banner.webp 240w,
+/my-personal-website/static/7eaaa454186c6265cf169346c621f704/715b3/banner.webp 314w&quot;
+            sizes=&quot;(max-width: 314px) 100vw, 314px&quot;
+            type=&quot;image/webp&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/7eaaa454186c6265cf169346c621f704/715b3/banner.webp&quot;
+            alt=&quot;App Banner&quot;
+            title=&quot;App Banner&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 314px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/my-personal-website/static/e186dc478f446632703d0d6900b09440/715b3/banner2.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 216.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABwBQCdASoUACsAPtFUokuoJKMhsBqqqQAaCWIAxqv/FYJlmtQzwH2AiVW4au7mDJesIqfAAGmRc8Ko8oW2C8ZYv9SwDBpdc2Txdke1CpQqD3pltvdHUt3zhQu/7o8G7hp9iKhuK33j2xSVAHtYi+CxwRQX9Qj3zvH6FXAC+wQgPP5Rvoefqt+IPNzN8Hppiw+fkmn6Ocd5REnrTekHRBsl8xEJuzLzlNCa5sfP3Je4Af2miyneIYAAAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/e186dc478f446632703d0d6900b09440/8ac56/banner2.webp 240w,
+/my-personal-website/static/e186dc478f446632703d0d6900b09440/715b3/banner2.webp 314w&quot;
+              sizes=&quot;(max-width: 314px) 100vw, 314px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/e186dc478f446632703d0d6900b09440/8ac56/banner2.webp 240w,
+/my-personal-website/static/e186dc478f446632703d0d6900b09440/715b3/banner2.webp 314w&quot;
+            sizes=&quot;(max-width: 314px) 100vw, 314px&quot;
+            type=&quot;image/webp&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/e186dc478f446632703d0d6900b09440/715b3/banner2.webp&quot;
+            alt=&quot;App Banner&quot;
+            title=&quot;App Banner&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 314px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/my-personal-website/static/651927f702c515788da659a8530f25f8/715b3/banner3.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 216.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRiIBAABXRUJQVlA4IBYBAABQBgCdASoUACsAPtFgpk+oJSMiJWsxABoJbADE2C7ptOuzMK4jLgx5DAim5Dvj1RYZIuDevmeC2DMoAAD++LX7ENCly60sZP9+tof+50QHrJza+Ex0tM7jW2vlktwcG/ALAOTcxTogfDB/lhtrIS3++o242k8Gz0WT5iRv+1Td/7JvXqxPnFLAixm28vC+/vJwu49ZS0tQY/Xmvi0BX0Y67IxrCDgxGCxPt7YETPgLN283Fg0V9OPadXGDt2UsEZr+JhI9CRcUDtp/08sv08IsnKyIUJyKvmpr+tM/840vwIB214tOPz4QCmCgDU5qmC+1W4Ih+kdeJjLVTg0LBc9DkslCxLCFNfHSpG9vtRtt891tkAAAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/651927f702c515788da659a8530f25f8/8ac56/banner3.webp 240w,
+/my-personal-website/static/651927f702c515788da659a8530f25f8/715b3/banner3.webp 314w&quot;
+              sizes=&quot;(max-width: 314px) 100vw, 314px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/651927f702c515788da659a8530f25f8/8ac56/banner3.webp 240w,
+/my-personal-website/static/651927f702c515788da659a8530f25f8/715b3/banner3.webp 314w&quot;
+            sizes=&quot;(max-width: 314px) 100vw, 314px&quot;
+            type=&quot;image/webp&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/651927f702c515788da659a8530f25f8/715b3/banner3.webp&quot;
+            alt=&quot;App Banner&quot;
+            title=&quot;App Banner&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 314px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/my-personal-website/static/0e820c898d9205f0af077aba801ab10e/715b3/banner4.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 216.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRiwBAABXRUJQVlA4ICABAACQBgCdASoUACsAPtFcpk0oJSOiKrgMAQAaCWoAvklwZ74APJWQerrqbx6R73EdRtknmRL7mvAFwjkQCKAAAP7rvNLvDZ4uI1BZvnt01QKTit+xAlZN+WZ+qYB/MLmoOcPe/zOeoOhEk+oJd+b4vWfmJ67uReTEsH2QjyXPhvrgJAnL7UEnn09lLZa1x+tTwHE01O3aC3qfldd2045xPYVz3GOiMndsicVDRAgCPTFhxfNEdEHDNNDg2KA1XDSITe7Eedsg/6WkQjzXGtNod8Nh/xogTAb7L//QYxFgOYJ9svuOL6hsTpEHB10orChKHN9DRxGYoZn0W3RN22D2UcfEhzanyVo+CMcxZTlMsAUVLF+keSDou1ECZzgk/l+jFAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/0e820c898d9205f0af077aba801ab10e/8ac56/banner4.webp 240w,
+/my-personal-website/static/0e820c898d9205f0af077aba801ab10e/715b3/banner4.webp 314w&quot;
+              sizes=&quot;(max-width: 314px) 100vw, 314px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/0e820c898d9205f0af077aba801ab10e/8ac56/banner4.webp 240w,
+/my-personal-website/static/0e820c898d9205f0af077aba801ab10e/715b3/banner4.webp 314w&quot;
+            sizes=&quot;(max-width: 314px) 100vw, 314px&quot;
+            type=&quot;image/webp&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/0e820c898d9205f0af077aba801ab10e/715b3/banner4.webp&quot;
+            alt=&quot;App Banner&quot;
+            title=&quot;App Banner&quot;
             loading=&quot;lazy&quot;
             decoding=&quot;async&quot;
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
