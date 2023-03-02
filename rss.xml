@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 01 Mar 2023 22:50:01 GMT</lastBuildDate><item><title><![CDATA[Mock Factories instead of Mock objects]]></title><description><![CDATA[In this article, i'll share my experiences using Mock Factories instead of Mock Objects.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</guid><pubDate>Tue, 07 Feb 2023 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;These last months i’ve being practicing Clean architecture and TDD at some of my personal projects (&lt;a href=&quot;https://github.com/leonardodimarchi/massage-therapy-api&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;like this one&lt;/a&gt;), and with that i’ve learned some new concepts and patterns.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Mar 2023 22:48:18 GMT</lastBuildDate><item><title><![CDATA[Mock Factories instead of Mock objects]]></title><description><![CDATA[In this article, i'll share my experiences using Mock Factories instead of Mock Objects.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</guid><pubDate>Tue, 07 Feb 2023 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;These last months i’ve being practicing Clean architecture and TDD at some of my personal projects (&lt;a href=&quot;https://github.com/leonardodimarchi/massage-therapy-api&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;like this one&lt;/a&gt;), and with that i’ve learned some new concepts and patterns.&lt;/p&gt;
 &lt;p&gt;Over the course of the projects, i was using mock objects at my unit tests.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;ts&quot;&gt;&lt;pre class=&quot;language-ts&quot;&gt;&lt;code class=&quot;language-ts&quot;&gt;&lt;span class=&quot;token function&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;should create the user&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token comment&quot;&gt;// Arrange&lt;/span&gt;
@@ -525,6 +525,94 @@
             style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
           /&gt;
         &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mob2b - Falai]]></title><description><![CDATA[Control and monitor public lighting base on occurrences opened by citizens.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/mob2b</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/mob2b</guid><pubDate>Tue, 06 Jul 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made to control and monitor public lighting in the city based on occurrences opened by citizens.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/33d1d/thumbnail.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC3UlEQVQ4y0WSS4sdRRTHe+ErMXHuqx/16q7urn7UvX1n5s5MyB0zs9DZaCBGEMkuGwUxS4MguhH0Q/gRBEUhuHTh2i/1k6o7xMWBovvwf55ECEGe58znM+7dn/POvSXp8ojV4ohCCIzRhB2tdRwhFK0VXB9nKCWRUrFeD1RlGd9JWBaiYJUWvH9ScHM+58fHdzh3S959b85yuUBKGUdJSV4opl7wxYcLtJIUQmJkipIFSmmSoigojUEby/644MUnOV9dZagsZZWmhP9RoTEYbdBKIaRmnuqoSCuB7R1SG5RSJIHZWkvbtizTgvvzglkqybKcLMviUgAMO+vNBjcMSCkwWlFV1eHt15S2jg5uLR8msCspopVoUamYmxQCqTVT07BzDts0kUBphRIKa8pb8FuFYYwxPNzv2V9ecn19Td/3r78HQGUMm6bhrOuwztENA34YcRuHn3wkkFFhVCKxlWHarNmdnnC2O6HvHEYfyIJ6ozVt19F6z+Vmw8PjLa7tqaaK1rcY9TpDRV0p+lriqoLOHsZVAmfDuRwybJqGNlhtGrwxTG1LE+wbeyhL6wOg0prGaob2ABwaDFl2gaCWMfzQ9Np7tqGUtqXte/pxpO96xmmk9/3/gEFBWRqqyrLbVHz+geDmQU5dW2pbHYoROXbwNBf7GIX3HhdybDu6XUe9bii1ieTJMpMxq9lK8enVgn9+eoNfXtwlL0TMrygEs2WBNBWl66itZRxHhmFgGDpcU1OVhjSXLFJJcuEPtxYUeb9mO22Ypi3DEGwYukbzaJpxNjmGYYxgdV2jdMkyt+Q6tL7hfK14tJ2T/P3DW6RBpalwrqPrR1rX0dQ1RyvDk30GvyZ8/fGSVNaMg2MYPecnPc8/knz5RPP0xvP7yzn8lpD8+/ObWJ3HRh+cevYXE2fHPWMryfKCZ9dzeJXwzdMVmShxtYoHfHWa88d3b/Pn93d4+dmMV9/ehb8S/gPaao84mE9pXgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/8ac56/thumbnail.webp 240w,
+/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/d3be9/thumbnail.webp 480w,
+/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/e46b2/thumbnail.webp 960w,
+/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/7ed5b/thumbnail.webp 1150w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/8ff5a/thumbnail.png 240w,
+/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/e85cb/thumbnail.png 480w,
+/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/d9199/thumbnail.png 960w,
+/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/33d1d/thumbnail.png 1150w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/0c5f5722ccfa4d6087bd84f8f1a990f8/d9199/thumbnail.png&quot;
+            alt=&quot;App Banner&quot;
+            title=&quot;App Banner&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/33d1d/banner.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAACdElEQVQ4y22Ty2oUQRSGe2MSEWImk3R33bp7+lLd03NN1IQYBANZiK8gikbwBQRBEHSh4KtIFi6y0m1ewCfyk6rpmUnAxU91nzrnP7e/AqUkaWKQUiKl4mgUUWWSKJbYqqC2BXEsSIxGa0UsJNVAcNjECCFRSjNua4zRKKUIpBBoFXvCMJa8Putx3IT0Q0WqIxIdehLno5RgL5QcjULenvXYj6QnzUyIVsKTB0IIX4E7HXb6kjASyM7u4JLF3b2z9/cF27uui4VtGa91R+gCXLkORkvf2vJ/MYo10izjwcxycpAzbktflRubu1sRukAhFVG8QNidbqayS7iAq8IwbxNODyTDyhDH62QrQm0SZuOKo3nO0bzgeD7g4aygLHJudpAkCWmakKQDTFpgTOptxpjbhKLb3LSOmdiIeRMxtgKjlb9zPsYlnY6xVYm1FbPJkDzPmU5amtp6vxstS7/JJC0oq4ZBYYmFXrWyINQ0TeNJiqKgrmuyLMPWtf+/tRTVBVa54vRAMxs6va2XshiLoR3WVGVOWRa0jSUfDGiHlqosugoVgZLrGS2DF4JVyM7mfNycmnZMkpVkuaVtW6TJqeoRRWm9jxN/4DS1IlS35eJOp7WdvvAjOWxjTucRj0YxNpc8nkYew1LQ23P6VASzqo9Y6VB2mlp8OymVacTJqMfUhnx9tc31tw0uP9zl3fMev79scvVpi4tnPeZVnyezPsHP91vsRwrdkd0U+P09zcuzXfgR8OLprk/QloIic+9fMbExdSEYJJLrzxv8vQwIfn3c9ITqP4Tbfc3FeQ+uAt6c73Kvp331y4U5uEcghOLP9zve7x9ceIgOh+7RMwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/8ac56/banner.webp 240w,
+/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/d3be9/banner.webp 480w,
+/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/e46b2/banner.webp 960w,
+/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/7ed5b/banner.webp 1150w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/8ff5a/banner.png 240w,
+/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/e85cb/banner.png 480w,
+/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/d9199/banner.png 960w,
+/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/33d1d/banner.png 1150w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/18b44683beec3960b1ffa5c61e70e188/d9199/banner.png&quot;
+            alt=&quot;App Banner 2&quot;
+            title=&quot;App Banner 2&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[N Cursos]]></title><description><![CDATA[An educational platform with certified courses.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/ncursos</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/ncursos</guid><pubDate>Tue, 06 Apr 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.ncursosedu.com.br/main/inicio&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;NCursos&lt;/a&gt; is an educational platform, where you can watch live or recorded classes on different areas of knowledge, remotely or in person, with certificates.&lt;/p&gt;
 &lt;p&gt;You can access it from your computer or smartphone to purchase courses, chat with the teacher, take classes and much more.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.ncursosedu.com.br/main/inicio&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Website&lt;/a&gt;
