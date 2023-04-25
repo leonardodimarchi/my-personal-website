@@ -15,14 +15,24 @@ const templates = Object.freeze({
     postTagsTemplate: path.resolve("./src/templates/Post/PostTagsTemplate/PostTagsTemplate.tsx"),
     postTemplate: path.resolve("./src/templates/Post/PostTemplate/PostTemplate.tsx"),
   },
+  projects: {
+    projectsTemplate: path.resolve(
+      "./src/templates/Project/ProjectsTemplate/ProjectsTemplate.tsx",
+    ),
+    projectCategoryTemplate: path.resolve(
+      "./src/templates/Project/ProjectCategoryTemplate/ProjectCategoryTemplate.tsx",
+    ),
+    projectCategoriesTemplate: path.resolve(
+      "./src/templates/Project/ProjectCategoriesTemplate/ProjectCategoriesTemplate.tsx",
+    ),
+    projectTagTemplate: path.resolve("./src/templates/Project/ProjectTagTemplate/ProjectTagTemplate.tsx"),
+    projectTagsTemplate: path.resolve("./src/templates/Project/ProjectTagsTemplate/ProjectTagsTemplate.tsx"),
+    projectTemplate: path.resolve("./src/templates/Project/ProjectTemplate/ProjectTemplate.tsx"),
+  },
   notFoundTemplate: path.resolve(
     "./src/templates/NotFoundTemplate/NotFoundTemplate.tsx",
   ),
   pageTemplate: path.resolve("./src/templates/PageTemplate/PageTemplate.tsx"),
-  projectTemplate: path.resolve("./src/templates/ProjectTemplate/ProjectTemplate.tsx"),
-  projectsTemplate: path.resolve(
-    "./src/templates/ProjectsTemplate/ProjectsTemplate.tsx",
-  ),
 });
 
 export default templates;

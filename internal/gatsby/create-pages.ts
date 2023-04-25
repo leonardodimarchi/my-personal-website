@@ -39,13 +39,13 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
 
   createPage({
     path: constants.routes.projectTagsListRoute,
-    component: constants.templates.posts.postTagsTemplate,
+    component: constants.templates.projects.projectTagsTemplate,
     context: {},
   });
 
   createPage({
     path: constants.routes.projectCategoriesListRoute,
-    component: constants.templates.posts.postCategoriesTemplate,
+    component: constants.templates.projects.projectCategoriesTemplate,
     context: {},
   });
 
@@ -69,7 +69,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     } else if (node?.frontmatter?.template === "project" && node?.fields?.slug) {
       createPage({
         path: node?.frontmatter?.slug || node.fields.slug,
-        component: constants.templates.projectTemplate,
+        component: constants.templates.projects.projectTemplate,
         context: { slug: node.fields.slug },
       });
     }
@@ -179,7 +179,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       createWithPagination({
         limit: projectsLimit,
         group: category.fieldValue,
-        template: constants.templates.posts.postCategoryTemplate,
+        template: constants.templates.projects.projectCategoryTemplate,
         total,
         page,
         path,
@@ -202,7 +202,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
       createWithPagination({
         limit: projectsLimit,
         group: tag.fieldValue,
-        template: constants.templates.posts.postTagTemplate,
+        template: constants.templates.projects.projectTagTemplate,
         total,
         page,
         path,
@@ -212,7 +212,7 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
 
   
   const projectsPath = constants.routes.projectsRoute;
-  const projectsTemplate = constants.templates.projectsTemplate;
+  const projectsTemplate = constants.templates.projects.projectsTemplate;
   const projects = await queries.projectsQuery(graphql);
   const totalProjects = Math.ceil((projects?.edges?.length ?? 0) / projectsLimit);
 

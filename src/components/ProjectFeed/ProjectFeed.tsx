@@ -35,7 +35,7 @@ const ProjectFeed: React.FC<Props> = ({ edges }: Props) => {
                 </time>
                 <span className={styles.divider} />
                 <span className={styles.category}>
-                  <Link to={edge.node.fields.categorySlug} className={styles.link}>
+                  <Link onClick={(e) => e.stopPropagation()} to={edge.node.fields.categorySlug} className={styles.link}>
                     {edge.node.frontmatter.category}
                   </Link>
                 </span>
