@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Jul 2023 03:07:31 GMT</lastBuildDate><item><title><![CDATA[Tintim]]></title><description><![CDATA[Whitelabel application focused on generating engagement at events by through missions and rewards.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/tintim</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/tintim</guid><pubDate>Wed, 01 Mar 2023 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app has many different clients, here you can find the main app:
-&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.liga.app.clubevantagens&amp;#x26;hl=pt_BR&amp;#x26;gl=US&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Play Store&lt;/a&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Jul 2023 03:10:12 GMT</lastBuildDate><item><title><![CDATA[Tintim]]></title><description><![CDATA[Whitelabel application focused on generating engagement at events by through missions and rewards.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/tintim</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/tintim</guid><pubDate>Wed, 01 Mar 2023 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app has many different clients, here you can find the main app:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.liga.app.clubevantagens&amp;#x26;hl=pt_BR&amp;#x26;gl=US&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Play Store&lt;/a&gt;
 &lt;a href=&quot;https://apps.apple.com/br/app/tintim/id1668376409&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;App Store&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -609,6 +609,48 @@
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Motivação+]]></title><description><![CDATA[An app where young people can do "trips" to discover more about themselves.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</guid><pubDate>Tue, 06 Jul 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made for a brazilian NGO called &lt;a href=&quot;https://institutoayrtonsenna.org.br/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Instituto Ayrton Senna&lt;/a&gt;. At the app, we have a lot of trips that the users can participate solo or in group, to answer different types of quizes that will make them think about life, friends, family and career.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.liga.motivacao.ias&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Play Store&lt;/a&gt;
+&lt;a href=&quot;https://apps.apple.com/br/app/motiva%C3%A7%C3%A3o/id1573251516&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;App Store&lt;/a&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwAwCdASoUAAsAPtFUo0uoJKMhsAgBABoJbACdACIg/DuEQQlmAAD+78Rd/gj8gUyzdcfrFzd5Kycgztq/423Nv2s3mggLDt7C/3xO52quSOBZjrAHRruYYAb5u1cVs4lYRybwAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/8ac56/banner.webp 240w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/d3be9/banner.webp 480w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp 960w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/f992d/banner.webp 1440w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/882b9/banner.webp 1920w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/5a003/banner.webp 2560w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/8ac56/banner.webp 240w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/d3be9/banner.webp 480w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp 960w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/f992d/banner.webp 1440w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/882b9/banner.webp 1920w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/5a003/banner.webp 2560w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/webp&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp&quot;
+            alt=&quot;App Banner&quot;
+            title=&quot;App Banner&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mob2b - Falai]]></title><description><![CDATA[Control and monitor public lighting base on occurrences opened by citizens.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/mob2b</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/mob2b</guid><pubDate>Tue, 06 Jul 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made to control and monitor public lighting in the city based on occurrences opened by citizens.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -697,48 +739,6 @@
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Motivação+]]></title><description><![CDATA[An app where young people can do "trips" to discover more about themselves.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</guid><pubDate>Tue, 06 Jul 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made for a brazilian NGO called &lt;a href=&quot;https://institutoayrtonsenna.org.br/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Instituto Ayrton Senna&lt;/a&gt;. At the app, we have a lot of trips that the users can participate solo or in group, to answer different types of quizes that will make them think about life, friends, family and career.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.liga.motivacao.ias&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Play Store&lt;/a&gt;
-&lt;a href=&quot;https://apps.apple.com/br/app/motiva%C3%A7%C3%A3o/id1573251516&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;App Store&lt;/a&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwAwCdASoUAAsAPtFUo0uoJKMhsAgBABoJbACdACIg/DuEQQlmAAD+78Rd/gj8gUyzdcfrFzd5Kycgztq/423Nv2s3mggLDt7C/3xO52quSOBZjrAHRruYYAb5u1cVs4lYRybwAAA=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-          &lt;source
-              srcset=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/8ac56/banner.webp 240w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/d3be9/banner.webp 480w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp 960w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/f992d/banner.webp 1440w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/882b9/banner.webp 1920w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/5a003/banner.webp 2560w&quot;
-              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-              type=&quot;image/webp&quot;
-            /&gt;
-          &lt;source
-            srcset=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/8ac56/banner.webp 240w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/d3be9/banner.webp 480w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp 960w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/f992d/banner.webp 1440w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/882b9/banner.webp 1920w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/5a003/banner.webp 2560w&quot;
-            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-            type=&quot;image/webp&quot;
-          /&gt;
-          &lt;img
-            class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp&quot;
-            alt=&quot;App Banner&quot;
-            title=&quot;App Banner&quot;
-            loading=&quot;lazy&quot;
-            decoding=&quot;async&quot;
-            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-          /&gt;
-        &lt;/picture&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[N Cursos]]></title><description><![CDATA[An educational platform with certified courses.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/ncursos</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/ncursos</guid><pubDate>Tue, 06 Apr 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.ncursosedu.com.br/main/inicio&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;NCursos&lt;/a&gt; is an educational platform, where you can watch live or recorded classes on different areas of knowledge, remotely or in person, with certificates.&lt;/p&gt;
 &lt;p&gt;You can access it from your computer or smartphone to purchase courses, chat with the teacher, take classes and much more.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.ncursosedu.com.br/main/inicio&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Website&lt;/a&gt;
