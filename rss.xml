@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Apr 2023 23:17:50 GMT</lastBuildDate><item><title><![CDATA[Mock Factories instead of Mock objects]]></title><description><![CDATA[In this article, i'll share my experiences using Mock Factories instead of Mock Objects.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</guid><pubDate>Tue, 07 Feb 2023 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;These last months i’ve being practicing Clean architecture and TDD at some of my personal projects (&lt;a href=&quot;https://github.com/leonardodimarchi/massage-therapy-api&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;like this one&lt;/a&gt;), and with that i’ve learned some new concepts and patterns.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Leonardo Dimarchi Blog]]></title><description><![CDATA[Leonardo Dimarchi Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Jul 2023 03:07:31 GMT</lastBuildDate><item><title><![CDATA[Tintim]]></title><description><![CDATA[Whitelabel application focused on generating engagement at events by through missions and rewards.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/tintim</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/tintim</guid><pubDate>Wed, 01 Mar 2023 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app has many different clients, here you can find the main app:
+&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.liga.app.clubevantagens&amp;#x26;hl=pt_BR&amp;#x26;gl=US&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Play Store&lt;/a&gt;
+&lt;a href=&quot;https://apps.apple.com/br/app/tintim/id1668376409&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;App Store&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 435px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/my-personal-website/static/9264cc271233b40e7f9b34120443ad77/330eb/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.91666666666669%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/9264cc271233b40e7f9b34120443ad77/8ac56/image1.webp 240w,
+/my-personal-website/static/9264cc271233b40e7f9b34120443ad77/267d1/image1.webp 435w&quot;
+              sizes=&quot;(max-width: 435px) 100vw, 435px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/9264cc271233b40e7f9b34120443ad77/8ff5a/image1.png 240w,
+/my-personal-website/static/9264cc271233b40e7f9b34120443ad77/330eb/image1.png 435w&quot;
+            sizes=&quot;(max-width: 435px) 100vw, 435px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/9264cc271233b40e7f9b34120443ad77/330eb/image1.png&quot;
+            alt=&quot;App Image&quot;
+            title=&quot;App Image&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 433px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/my-personal-website/static/7e95e02f06a3f59111296ea16b971759/55fc0/image2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 179.58333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/7e95e02f06a3f59111296ea16b971759/8ac56/image2.webp 240w,
+/my-personal-website/static/7e95e02f06a3f59111296ea16b971759/aff3a/image2.webp 433w&quot;
+              sizes=&quot;(max-width: 433px) 100vw, 433px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/7e95e02f06a3f59111296ea16b971759/8ff5a/image2.png 240w,
+/my-personal-website/static/7e95e02f06a3f59111296ea16b971759/55fc0/image2.png 433w&quot;
+            sizes=&quot;(max-width: 433px) 100vw, 433px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/7e95e02f06a3f59111296ea16b971759/55fc0/image2.png&quot;
+            alt=&quot;App Image 2&quot;
+            title=&quot;App Image 2&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mock Factories instead of Mock objects]]></title><description><![CDATA[In this article, i'll share my experiences using Mock Factories instead of Mock Objects.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/posts/mock-factories-instead-of-mock-objects</guid><pubDate>Tue, 07 Feb 2023 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;These last months i’ve being practicing Clean architecture and TDD at some of my personal projects (&lt;a href=&quot;https://github.com/leonardodimarchi/massage-therapy-api&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;like this one&lt;/a&gt;), and with that i’ve learned some new concepts and patterns.&lt;/p&gt;
 &lt;p&gt;Over the course of the projects, i was using mock objects at my unit tests.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;ts&quot;&gt;&lt;pre class=&quot;language-ts&quot;&gt;&lt;code class=&quot;language-ts&quot;&gt;&lt;span class=&quot;token function&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;should create the user&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;token comment&quot;&gt;// Arrange&lt;/span&gt;
@@ -527,48 +609,6 @@
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Motivação+]]></title><description><![CDATA[An app where young people can do "trips" to discover more about themselves.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</guid><pubDate>Tue, 06 Jul 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made for a brazilian NGO called &lt;a href=&quot;https://institutoayrtonsenna.org.br/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Instituto Ayrton Senna&lt;/a&gt;. At the app, we have a lot of trips that the users can participate solo or in group, to answer different types of quizes that will make them think about life, friends, family and career.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.liga.motivacao.ias&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Play Store&lt;/a&gt;
-&lt;a href=&quot;https://apps.apple.com/br/app/motiva%C3%A7%C3%A3o/id1573251516&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;App Store&lt;/a&gt;
-&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwAwCdASoUAAsAPtFUo0uoJKMhsAgBABoJbACdACIg/DuEQQlmAAD+78Rd/gj8gUyzdcfrFzd5Kycgztq/423Nv2s3mggLDt7C/3xO52quSOBZjrAHRruYYAb5u1cVs4lYRybwAAA=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;picture&gt;
-          &lt;source
-              srcset=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/8ac56/banner.webp 240w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/d3be9/banner.webp 480w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp 960w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/f992d/banner.webp 1440w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/882b9/banner.webp 1920w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/5a003/banner.webp 2560w&quot;
-              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-              type=&quot;image/webp&quot;
-            /&gt;
-          &lt;source
-            srcset=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/8ac56/banner.webp 240w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/d3be9/banner.webp 480w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp 960w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/f992d/banner.webp 1440w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/882b9/banner.webp 1920w,
-/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/5a003/banner.webp 2560w&quot;
-            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-            type=&quot;image/webp&quot;
-          /&gt;
-          &lt;img
-            class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp&quot;
-            alt=&quot;App Banner&quot;
-            title=&quot;App Banner&quot;
-            loading=&quot;lazy&quot;
-            decoding=&quot;async&quot;
-            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-          /&gt;
-        &lt;/picture&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mob2b - Falai]]></title><description><![CDATA[Control and monitor public lighting base on occurrences opened by citizens.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/mob2b</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/mob2b</guid><pubDate>Tue, 06 Jul 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made to control and monitor public lighting in the city based on occurrences opened by citizens.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -657,6 +697,48 @@
           /&gt;
         &lt;/picture&gt;
   &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Motivação+]]></title><description><![CDATA[An app where young people can do "trips" to discover more about themselves.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/motivacao-mais</guid><pubDate>Tue, 06 Jul 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The app was made for a brazilian NGO called &lt;a href=&quot;https://institutoayrtonsenna.org.br/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Instituto Ayrton Senna&lt;/a&gt;. At the app, we have a lot of trips that the users can participate solo or in group, to answer different types of quizes that will make them think about life, friends, family and career.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.liga.motivacao.ias&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Play Store&lt;/a&gt;
+&lt;a href=&quot;https://apps.apple.com/br/app/motiva%C3%A7%C3%A3o/id1573251516&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;App Store&lt;/a&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwAwCdASoUAAsAPtFUo0uoJKMhsAgBABoJbACdACIg/DuEQQlmAAD+78Rd/gj8gUyzdcfrFzd5Kycgztq/423Nv2s3mggLDt7C/3xO52quSOBZjrAHRruYYAb5u1cVs4lYRybwAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/8ac56/banner.webp 240w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/d3be9/banner.webp 480w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp 960w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/f992d/banner.webp 1440w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/882b9/banner.webp 1920w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/5a003/banner.webp 2560w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/8ac56/banner.webp 240w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/d3be9/banner.webp 480w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp 960w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/f992d/banner.webp 1440w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/882b9/banner.webp 1920w,
+/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/5a003/banner.webp 2560w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/webp&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/my-personal-website/static/77fd79bcf6b5b6770afe14bd554d1fd3/e46b2/banner.webp&quot;
+            alt=&quot;App Banner&quot;
+            title=&quot;App Banner&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[N Cursos]]></title><description><![CDATA[An educational platform with certified courses.]]></description><link>https://leonardodimarchi.github.io/my-personal-website/projects/ncursos</link><guid isPermaLink="false">https://leonardodimarchi.github.io/my-personal-website/projects/ncursos</guid><pubDate>Tue, 06 Apr 2021 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.ncursosedu.com.br/main/inicio&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;NCursos&lt;/a&gt; is an educational platform, where you can watch live or recorded classes on different areas of knowledge, remotely or in person, with certificates.&lt;/p&gt;
 &lt;p&gt;You can access it from your computer or smartphone to purchase courses, chat with the teacher, take classes and much more.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.ncursosedu.com.br/main/inicio&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Website&lt;/a&gt;
